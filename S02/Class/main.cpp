@@ -1,7 +1,7 @@
-#include<iostream>
+#include<iostream> // for cout and cin
 #include<math.h>
 
-using namespace std;
+using namespace std; //for not using std::  
 
 class Point
 {
