@@ -35,10 +35,5 @@ class Program
     }
 
     static void Main(string[] args)
-    {
-        string s = "Hadi Asghar moulavu Mousavi";
-        string srev;
-        RevWords(s , out srev);
-        Console.WriteLine(srev);
-    }
+    { }
 }
