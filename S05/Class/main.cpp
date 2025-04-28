@@ -12,7 +12,7 @@ int main()
         cout << "capacity: " << nums.capacity() << "\tsize: " << nums.size() << endl;
         nums.push_back(i);
     }
-    return 0;
+    return 0;   
 }
 
 int main3()
@@ -22,7 +22,7 @@ int main3()
     nums.push_back(10);
     for(int i=0;i<nums.size();i++) // TODO3
         cout << nums.at(i) << endl; //TODO4
-    nums.insert(nums.begin() , 2); //5,19 ==> 2,5,10 
+    nums.insert(nums.begin() , 2); //5,10 ==> 2,5,10 
     // nums.insert(0 , 2); //5,19 ==> 2,5,10 TODO5
     nums.erase(nums.begin()); // 2 , 5, 10 ==> 5 , 10 
     // nums.erase(3) // TODO6

@@ -19,6 +19,11 @@ class MyList
             }
         }
 
+        MyList ()
+        {
+            
+        }
+
         void append(double n)
         {
             if(m_length+1 < m_capacity)
@@ -86,5 +91,13 @@ class MyList
 
 int main()
 {
-    
+    int nums[5] = {1,2,3,4,5};
+    MyList l;
+    l.m_Pnums = nums;
+    l.m_length = 5;
+    l.pop(3);
+    for(int i = 0 ; i < 4 ; i++)
+        cout << l.m_Pnums[i] << " ";
+    cout << l.m_length << endl;
+
 }

@@ -35,6 +35,7 @@ class MyList
                 free(m_Pnums);
                 m_length = newsize;
                 m_Pnums = newMem;
+                newMem = NULL;
             }
 };
 
