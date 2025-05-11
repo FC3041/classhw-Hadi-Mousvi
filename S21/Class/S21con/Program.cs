@@ -43,7 +43,7 @@ class Program
     {
         // string[] Lines =
         File.ReadAllLines("children-per-woman-UN.csv")
-                // .Where(l=> l.ToLower().Contains("iran"))
+                .Where(l=> l.ToLower().Contains("iran"))
                 .Skip(1)
                 .Select(l =>
                 {
